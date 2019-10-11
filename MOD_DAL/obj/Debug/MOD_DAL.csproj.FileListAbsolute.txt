@@ -1,0 +1,24 @@
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\bin\Debug\MOD_DAL.dll.config
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\bin\Debug\MOD_DAL.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\bin\Debug\MOD_DAL.pdb
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.pdb
+C:\Users\Lenovo\source\repos\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.csprojAssemblyReference.cache
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\bin\Debug\MOD_DAL.dll.config
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\bin\Debug\MOD_DAL.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\bin\Debug\MOD_DAL.pdb
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\bin\Debug\EntityFramework.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\bin\Debug\EntityFramework.xml
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.csprojAssemblyReference.cache
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.csproj.CopyComplete
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_DAL\obj\Debug\MOD_DAL.pdb

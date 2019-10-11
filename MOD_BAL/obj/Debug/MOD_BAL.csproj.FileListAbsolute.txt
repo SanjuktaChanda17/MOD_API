@@ -1,0 +1,30 @@
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\MOD_BAL.dll.config
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\MOD_BAL.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\MOD_BAL.pdb
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\MOD_DAL.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\MOD_DAL.pdb
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\MOD_DAL.dll.config
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.dll
+C:\Users\Lenovo\source\repos\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.pdb
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.csprojAssemblyReference.cache
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.csproj.CoreCompileInputs.cache
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.pdb
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\MOD_BAL.dll.config
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\MOD_BAL.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\MOD_BAL.pdb
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\EntityFramework.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\MOD_DAL.dll
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\MOD_DAL.pdb
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\MOD_DAL.dll.config
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\EntityFramework.xml
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sanjukta Chanda\Desktop\shivam project\MOD_API\MOD_BAL\obj\Debug\MOD_BAL.csproj.CopyComplete

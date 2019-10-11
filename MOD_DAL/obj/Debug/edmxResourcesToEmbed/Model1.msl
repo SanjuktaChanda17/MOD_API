@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyEntityModelStoreContainer" CdmEntityContainer="MyEntity1">
+    <EntitySetMapping Name="PaymentDtls">
+      <EntityTypeMapping TypeName="MyEntityModel.PaymentDtl">
+        <MappingFragment StoreEntitySet="PaymentDtls">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="trainerId" ColumnName="trainerId" />
+          <ScalarProperty Name="skillId" ColumnName="skillId" />
+          <ScalarProperty Name="fees" ColumnName="fees" />
+          <ScalarProperty Name="trainerFees" ColumnName="trainerFees" />
+          <ScalarProperty Name="commision" ColumnName="commision" />
+          <ScalarProperty Name="skillName" ColumnName="skillName" />
+          <ScalarProperty Name="paymentStatus" ColumnName="paymentStatus" />
+          <ScalarProperty Name="trainingDetailsId" ColumnName="trainingDetailsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SkillDtls">
+      <EntityTypeMapping TypeName="MyEntityModel.SkillDtl">
+        <MappingFragment StoreEntitySet="SkillDtls">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="toc" ColumnName="toc" />
+          <ScalarProperty Name="prerequisites" ColumnName="prerequisites" />
+          <ScalarProperty Name="fees" ColumnName="fees" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingDtls">
+      <EntityTypeMapping TypeName="MyEntityModel.TrainingDtl">
+        <MappingFragment StoreEntitySet="TrainingDtls">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="progress" ColumnName="progress" />
+          <ScalarProperty Name="commisionAmount" ColumnName="commisionAmount" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="avaRating" ColumnName="avaRating" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="timeSlot" ColumnName="timeSlot" />
+          <ScalarProperty Name="amountReceived" ColumnName="amountReceived" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="mentorId" ColumnName="mentorId" />
+          <ScalarProperty Name="mentorName" ColumnName="mentorName" />
+          <ScalarProperty Name="skillId" ColumnName="skillId" />
+          <ScalarProperty Name="skillname" ColumnName="skillname" />
+          <ScalarProperty Name="accept" ColumnName="accept" />
+          <ScalarProperty Name="rejectNotify" ColumnName="rejectNotify" />
+          <ScalarProperty Name="trainingPaymentStatus" ColumnName="trainingPaymentStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserDtls">
+      <EntityTypeMapping TypeName="MyEntityModel.UserDtl">
+        <MappingFragment StoreEntitySet="UserDtls">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="contactNumber" ColumnName="contactNumber" />
+          <ScalarProperty Name="regCode" ColumnName="regCode" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="linkedinUrl" ColumnName="linkedinUrl" />
+          <ScalarProperty Name="yearOfExperience" ColumnName="yearOfExperience" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="confirmedSignUp" ColumnName="confirmedSignUp" />
+          <ScalarProperty Name="resetPasswordDate" ColumnName="resetPasswordDate" />
+          <ScalarProperty Name="resetPassword" ColumnName="resetPassword" />
+          <ScalarProperty Name="pictureUrl" ColumnName="pictureUrl" />
+          <ScalarProperty Name="trainerTimings" ColumnName="trainerTimings" />
+          <ScalarProperty Name="trainerTechnology" ColumnName="trainerTechnology" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

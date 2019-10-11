@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MODDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PaymentDtl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int32" />
+    <Property Name="trainerId" Type="Int32" />
+    <Property Name="skillId" Type="Int32" />
+    <Property Name="fees" Type="Double" />
+    <Property Name="trainerFees" Type="Double" />
+    <Property Name="commision" Type="Double" />
+    <Property Name="skillName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="paymentStatus" Type="Boolean" />
+    <Property Name="trainingDetailsId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SkillDtl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="toc" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="prerequisites" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fees" Type="Double" />
+  </EntityType>
+  <EntityType Name="TrainingDtl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="status" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="progress" Type="Int32" />
+    <Property Name="commisionAmount" Type="Double" />
+    <Property Name="rating" Type="Int32" />
+    <Property Name="avaRating" Type="Double" />
+    <Property Name="startDate" Type="DateTime" Precision="0" />
+    <Property Name="endDate" Type="DateTime" Precision="0" />
+    <Property Name="timeSlot" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="amountReceived" Type="Double" />
+    <Property Name="userId" Type="Int32" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mentorId" Type="Int32" />
+    <Property Name="mentorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="skillId" Type="Int32" />
+    <Property Name="skillname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="accept" Type="Boolean" />
+    <Property Name="rejectNotify" Type="Boolean" />
+    <Property Name="trainingPaymentStatus" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="UserDtl">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="firstName" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="lastName" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="contactNumber" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="regCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="role" Type="Int32" Nullable="false" />
+    <Property Name="linkedinUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="yearOfExperience" Type="Int32" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="confirmedSignUp" Type="Boolean" />
+    <Property Name="resetPasswordDate" Type="DateTime" Precision="3" />
+    <Property Name="resetPassword" Type="Boolean" />
+    <Property Name="pictureUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="trainerTimings" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="trainerTechnology" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="MyEntity" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PaymentDtls" EntityType="Self.PaymentDtl" />
+    <EntitySet Name="SkillDtls" EntityType="Self.SkillDtl" />
+    <EntitySet Name="TrainingDtls" EntityType="Self.TrainingDtl" />
+    <EntitySet Name="UserDtls" EntityType="Self.UserDtl" />
+  </EntityContainer>
+</Schema>
